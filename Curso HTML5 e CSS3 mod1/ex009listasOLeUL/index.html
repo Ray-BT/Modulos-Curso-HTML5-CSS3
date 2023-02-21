@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol><!-- Ordered lists são listas ordenadas que podem ser numeradas ou em ordem alfabética, os types são '1' para ordem númerica
+    'A' e 'a' para ordem alfabética maiúscula ou minuscula e 'I' e 'i' para números românos maiúsculos ou minúsculos.-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type ="disc"><!--unordered list não precisa ter uma ordem elas são marcadas com um símbolo que você pode mudar
+    usando o type, são três que existem 'disc' que é o padrão circle e square. -->
+        <li>Pão</li>
+        <li>Leita</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Linguagens favoritas do guanabara</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="6"> <!-- start é um parâmetro númerico se for usar type na ordem alfabética e
+        quiser que comece a contar apartir de determinada letra você precisa colocar o número correpondente
+        a posição da letra(no caso a letra 'e' start 5) -->
+            <li>PHP</li>
+            <LI>Python</LI>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>SNES</li>
+        <ul type = "square">
+            <li>Chrono trigger</li>
+            <li>The Legend of Zelda Link To The Past</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type = "square">
+            <li>Castlevania Symphony of the night</li>
+            <li>Tekken 3</li>
+        </ul>
+        <li>Game Boy Advanced</li>
+        <ul type = "square">
+            <li>Golden sun</li>
+            <li>Castlevania Aria of sorrow</li>
+                <ul type = "circle">
+                    <li>Castlevania: Circle of the Moon</li>
+                    <li>Castlevania: Harmony of Dissonance</li>
+                </ul>
+        </ul>
+    </ol>
+    <h2>Lista de definição</h2>
+    <dl><!--Definition list-->
+        <dt>HTML</dt><!--termo/Description Term element-->
+            <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd><!--descrição/Description Details element-->
+        <dt>CSS</dt>
+            <dd>Linguagem de marcação para criação de design de um site.</dd>
+        <dt>JavaScript</dt>
+            <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    <!--O google da valor a sites que tem listas de definição no seu interior na hora das buscas.-->
+
+    </dl>
+    <!--ATALHOS: pode segurar o alt e clicar em varias linhas e escrever em todas de uma vez-->
+    
+</body>
+</html>

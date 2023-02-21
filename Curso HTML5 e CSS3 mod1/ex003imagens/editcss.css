@@ -1,0 +1,32 @@
+.t1 {
+    color: white;
+}
+.p1 {
+    font-size: 20px;
+    color: white;
+}
+.p2 {
+    font-size: 20px;
+    color: white;
+}
+.p3 {
+    font-size: 20px;
+    color: white
+}
+body {
+    background-color: rgba(26, 25, 25, 0.856);   
+}
+
+div#div1 {
+    background-color: rgba(0, 60, 255, 0.349);
+    width: 2000px;
+    
+}
+div#div2 {
+    background-color: rgba(241, 241, 7, 0.349);
+    width: 2000px;
+}
+div#div3 {
+    background-color: rgba(14, 13, 13, 0.349);
+    width: 2000px;
+}

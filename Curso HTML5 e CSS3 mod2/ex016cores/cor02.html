@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient em CSS</title>
+    <!--o sinal de asteristico * representa uma configuração global nas CSS-->
+    <style>
+        *{
+            height: 100%;
+        }
+        h1 {
+            color: white;
+        }
+        body {
+            background-image: linear-gradient(to right, #010101 10%,#F6D4D4 40%,#B762C1 50%,#006A3F,#1F193F);/*direções do linear gradient
+            ,to top, to right, to left, to bottom. radial-gradient(circle)*/
+            background-attachment: fixed;/* background-attachment (define se a imagem de fundo "rola" ou não com a tela)*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradient</h1>
+</body>
+</html>

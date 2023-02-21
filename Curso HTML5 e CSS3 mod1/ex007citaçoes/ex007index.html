@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Códigos-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p> <!--a tag code é uma fonte mono espaçada
+    ou seja, cada letra tem o mesmo espaçamento, é boa para ler código por isso o nome é code-->
+    <pre><!-- a tag 'pre' considera as quebras de linhas e as identações, se usar apenas a tag code mudaria apenas a forma da letra
+    mas os códigos ficariam na mesma linha-->
+        <code>
+num = int(input('Digite um número'))
+inf num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do progama')
+<!--É possivel alterar o espaçamento de todo o texto selecionando o trecho com o mouse e segurando shift e apartando tab para ele ir para a esquerda para ir para a direita selecione o trecho e aperte apenas o tab sem segurar o shift tab-->
+    </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>""</p><!-- a tag q (quote) adiciona aspas duplas com uma pequena
+    diferença visual das aspas duplas comuns, ela é usada para fazer citações a frases ou contéudos
+    de outra fonte, é recomendado usar essa tag ao invés das aspas duplas comuns por causa da semântica citada acima. ela é usada para
+    citações pequenas.-->
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livre HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwJH5-PevNboAhVNIbkGHcoxC0gQ6AEIOJAC#v=onepage&q=HTML&f=false"><!-- a tag cite serve para informar o endereço de onde foi retirado a citação neste caso o livro, esta tag não deixa o link visivel na pagina, porém
+    os mecânismos de busca, google a parte interna do site vai saber que você esta referenciando este livro no caso, isso serve para 
+    manter os direitos daqueles que produzem conteúdo.-->
+        A diferença entre elementos inline e um bloco de texto é importante.
+        Os elementos HTML neste capítulo descrevem os gblocos de texto.
+    </blockquote> <!-- uma blockquote tambem é usado para citação porém ele é mais usado para um destaque isolado,
+    ele vem com um espaçamento horizontal e indica que o texto incluído é uma longa citação.-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> Estou adorando!</p> <!-- tag abbr usada para informar
+    o significado de palavras abreviadas ao passar o mouse em cima.-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl"> Estou aprendendo a criar coisas em HTML</bdo></p><!--tag bdo serve para inverter o texto. rtl right to left ou ltr left to right. é uma tag pouco usada.-->
+</body>
+</html>

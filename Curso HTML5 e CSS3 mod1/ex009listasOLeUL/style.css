@@ -1,0 +1,27 @@
+h1 {
+color: aliceblue;
+}
+h2 {
+color: aliceblue;
+}
+ul {
+color: aliceblue;
+}
+ol {
+color: aliceblue;    
+}
+body {
+    background-image: linear-gradient(
+        rgb(3, 3, 3),
+        rgba(17, 5, 82, 0.514)
+    );
+}
+dl {
+color: aliceblue;
+}
+dt {
+color: aliceblue;
+}
+dd {
+color: aliceblue;    
+}

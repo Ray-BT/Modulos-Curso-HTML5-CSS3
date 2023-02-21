@@ -1,0 +1,36 @@
+@charset "UTF-8"; /*o sinal de asteristico * representa uma configuração global nas CSS*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;/*Ao declarar na função global altera tudo, e alguns parametros de algumas tags
+    devem ser ajustados manualmente.por exemplo no caso de uma div deve ser ajustado para height auto*/
+    
+}
+body {
+    background-image: linear-gradient(to top, #22B4D0, #182E52 );/*direções do linear gradient
+    ,to top, to right, to left, to bottom. radial-gradient(circle)*/
+    background-attachment: fixed; /*background-attachment (define se a imagem de fundo "rola" ou não com a tela)*/
+}
+main {
+    background-color: #4B4070;
+    padding: 10px; /*da um espaçamento entre o texto e a borda*/
+    border-radius: 10px;/*deixa a borda arredondada*/
+    box-shadow: 5px 5px 15px #182e52c0;/*adiciona um sombreamento na borda
+    o primeiro paramentro é o quanto a sombra vai para o lado, o segundo é o quanto ela vai para baixo,
+    o terceiro é o quanto vai espalhar, e o quarto é a cor/transparencia*/
+    margin: auto;/*Centraliza idependente do tamanho da tela*/
+    width: 600px;
+    height: auto;/*ajusta o tamanho do bloco automaticamente de acordo com o tamanho do texto */
+}
+h1 {
+    text-align: center; /*Centraliza o texto no centro do body ou do bloco*/
+    color: #F5FAFB;
+    text-shadow: 1px 2px 2px #7A9EAF;/*mesma coisa do box shadow,deslocamento lateral, deslocamento de baixo, largura e cor/transparencia*/
+}
+h2 {
+    color: #F83636;
+}
+p {
+    color: #00FFFE;
+    text-align: justify;/* justify: Descreve como o conteúdo embutido de um bloco é alinhado horizontalmente se o conteúdo não preencher completamente a caixa de linha.*/
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /*BOX-LEVEL*/
+
+            /*height e width chamamos de box size*/
+            height: 300px;
+            width: 300px;
+            background-color: lightgrey;
+           /* border-width: 10px;
+            border-style: solid;
+            border-color: rgb(105, 105, 105);
+            */
+
+            border: 10px solid rgb(105, 105, 105);
+            
+           /* margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            */
+
+            /*para ordernar os tamanhos com shorthand é sempre em sentido horario, cima direita baixo esquerda.*/
+
+            /*margin: 20px 20px 40px 20px;*/
+
+            margin: 20px auto 40px auto; /*centralizando automaticamente esquerda e direita independente do tamanho da janela*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+            padding: 10px; /*se todas as posições voce quiser o mesmo tamanho basta por no shorthand um unico valor, esse valor vai ser declarado para as quatro posições, se for dois ex: (padding: 10px 20px) o programa entende 10px top 10px bottom e 20px right 20px left. */
+        }
+        a { /*inline-level*/
+           border-width: 10px; 
+           border-style: dashed; /*dashed = traços, dotted = pontilhado, double = linha dupla solid, = sólida, goove = efeito tri dimensional com a margin de outra cor, */
+           border-color: red;
+
+           /*padding-top: 10px;
+           padding-right: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
+           */
+           padding: 10px
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>
+</html>
