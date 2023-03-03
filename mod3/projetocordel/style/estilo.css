@@ -1,0 +1,121 @@
+@charset "UTF-8";
+    @font-face {
+        font-family: 'Freight';
+        src: url('../font/Freight\ Sans\ Black.otf');
+        src: url('../font/salsbury.ttf');
+    }
+:root {
+    --fonte-titulo: 'Freight', cursive;
+    --fonte-conteudo: 'Freight', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+}
+header {
+    background-color: black;
+    color: white;
+    min-width: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 5em;
+}
+article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}.artigo {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    max-width: 100%; 
+}
+
+.artigo > p {
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonte-conteudo);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    line-height: 2em;
+}
+.artigo2 {
+    color: white;
+    background: rgb(14, 14, 14) url('../image/background001.jpg') center right no-repeat fixed;
+    background-size: cover;  
+}
+.artigo2 > p {
+    background-color: rgba(2, 2, 2, 0.288);
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonte-conteudo);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-width: 300px;
+    max-width: 400px;
+    line-height: 2em;
+}
+.artigo3 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    max-width: 100%; 
+}
+.artigo3 > p {
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonte-conteudo);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    line-height: 2em;
+}
+.artigo4 {
+    color: white;
+    background: rgb(14, 14, 14) url('../image/background002.jpg') center right no-repeat fixed;
+    background-size: cover; 
+}
+.artigo4 > p {
+    background-color: rgba(2, 2, 2, 0.288);
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonte-conteudo);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    line-height: 2em;
+}
+.artigo5 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    max-width: 100%; 
+}
+.artigo5 > p {
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonte-conteudo);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    line-height: 2em; 
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+a {
+    color: rgb(190, 189, 189);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
