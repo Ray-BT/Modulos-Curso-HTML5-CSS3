@@ -25,13 +25,17 @@ header {
 }
 header > h1 {
     font-family: var(--fonte-titulo);
-    font-size: 5em;
+    font-size: 10vw;
 }
 article {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
-}.artigo {
+    padding-left: 20px;
+}
+main {
+    font-size: 1vw;
+}
+.artigo {
     background-color: rgb(255, 255, 255);
     color: black;
     max-width: 100%; 
