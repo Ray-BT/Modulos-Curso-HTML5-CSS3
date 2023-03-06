@@ -26,6 +26,7 @@ header {
 header > h1 {
     font-family: var(--fonte-titulo);
     font-size: 10vw;
+    
 }
 article {
     padding-top: 10vh;
@@ -33,7 +34,6 @@ article {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 
 .artigo {
     background-color: rgb(255, 255, 255);
@@ -50,12 +50,12 @@ article {
     max-width: 400px;
     line-height: 2em;
 }
-.artigo2 {
+article#artigoimg {
     color: white;
     background: rgb(14, 14, 14) url('../image/background001.jpg') center right no-repeat fixed;
     background-size: cover;  
 }
-.artigo2 > p {
+.artigoclasseimg > p {
     background-color: rgba(2, 2, 2, 0.288);
     text-align: center;
     font-size: 2em;
@@ -66,26 +66,13 @@ article {
     max-width: 400px;
     line-height: 2em;
 }
-.artigo3 {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    max-width: 100%; 
-}
-.artigo3 > p {
-    text-align: center;
-    font-size: 2em;
-    font-family: var(--fonte-conteudo);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    max-width: 400px;
-    line-height: 2em;
-}
-.artigo4 {
+
+article#artigoimg{
     color: white;
     background: rgb(14, 14, 14) url('../image/background002.jpg') center right no-repeat fixed;
     background-size: cover; 
 }
-.artigo4 > p {
+.artigoclasseimg p {
     background-color: rgba(2, 2, 2, 0.288);
     text-align: center;
     font-size: 2em;
@@ -95,20 +82,7 @@ article {
     max-width: 400px;
     line-height: 2em;
 }
-.artigo5 {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    max-width: 100%; 
-}
-.artigo5 > p {
-    text-align: center;
-    font-size: 2em;
-    font-family: var(--fonte-conteudo);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    max-width: 400px;
-    line-height: 2em; 
-}
+
 footer{
     text-align: center;
     color: white;
