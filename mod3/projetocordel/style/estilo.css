@@ -50,6 +50,9 @@ article {
     max-width: 400px;
     line-height: 2em;
 }
+.artigoclasseimg {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+}
 article#artigoimg1 {
     color: white;
     background: rgb(14, 14, 14) url('../image/background001.jpg') center right no-repeat fixed;
@@ -67,7 +70,7 @@ article#artigoimg1 {
     line-height: 2em;
 }
 
-article#artigoimg2{
+article#artigoimg2 {
     color: white;
     background: rgb(14, 14, 14) url('../image/background002.jpg') center right no-repeat fixed;
     background-size: cover; 
