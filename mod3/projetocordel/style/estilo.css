@@ -50,7 +50,7 @@ article {
     max-width: 400px;
     line-height: 2em;
 }
-article#artigoimg {
+article#artigoimg1 {
     color: white;
     background: rgb(14, 14, 14) url('../image/background001.jpg') center right no-repeat fixed;
     background-size: cover;  
@@ -67,7 +67,7 @@ article#artigoimg {
     line-height: 2em;
 }
 
-article#artigoimg{
+article#artigoimg2{
     color: white;
     background: rgb(14, 14, 14) url('../image/background002.jpg') center right no-repeat fixed;
     background-size: cover; 
